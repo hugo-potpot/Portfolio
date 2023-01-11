@@ -322,6 +322,18 @@ footer{
     display: flex; 
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+footer a:hover{
+    color: #c5bf99;
 }
 
 footer h3{
